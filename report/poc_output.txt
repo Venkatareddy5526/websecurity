@@ -1,0 +1,10 @@
+PoC Report - 2025-09-27 16:10:31.029260
+
+ID: 1
+Title: Reflected XSS
+Payload: <script>alert(1)</script>
+
+ID: 2
+Title: SQL Injection
+Payload: ' OR '1'='1
+

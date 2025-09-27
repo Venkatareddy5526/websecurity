@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Security Report</title></head>
+<body>
+ <h1>WebSec Suite - Security Report</h1>
+ <p>Generated: 2025-09-27 16:23:47.291935</p>
+ <table border="1" cellpadding="6">
+  <tr><th>ID</th><th>Title</th><th>Severity</th><th>URL</th><th>PoC</th><th>Fix</th></tr>
+  
+  <tr>
+   <td>1</td><td>Reflected XSS</td><td>High</td>
+   <td>http://127.0.0.1:5001/</td><td>payload echoed (original)</td><td>Escape output</td>
+  </td>
+  
+  <tr>
+   <td>2</td><td>SQL Injection (demo)</td><td>High</td>
+   <td>http://127.0.0.1:5001/</td><td>bypass/login (original)</td><td>Use parameterized queries — Fixed in vuln_demo_fixed.py</td>
+  </td>
+  
+ </table>
+</body>
+</html>
